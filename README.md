@@ -26,7 +26,7 @@ As an example, the repo contains `openai_distillation.py` that uses this framewo
 
 | <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5e0f518-c710-4d42-9f7b-4094fa320263_1593x1083.png" /> | 
 |:--:| 
-| *Distillation architecture as proposed by Recursal.ai * |
+| *Distillation architecture as proposed by Recursal.ai* |
 
 
 # Acknowledgements
