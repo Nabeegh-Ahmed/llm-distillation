@@ -24,5 +24,10 @@ As an example, the repo contains `openai_distillation.py` that uses this framewo
 - If an entry above a certain similarity threshold and `indexed: True` is found, the request is routed to the distilled model
 - Else, the request fallbacks to a main model (OpenAI, Mixtral...) and the data is collected to be fine tuned later
 
+| <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5e0f518-c710-4d42-9f7b-4094fa320263_1593x1083.png" /> | 
+|:--:| 
+| *Distillation architecture as proposed by Recursal.ai * |
+
+
 # Acknowledgements
 This technique was originally proposed by <a href="https://substack.recursal.ai/">Recursal.ai</a> in their <a href="https://substack.recursal.ai/p/run-over-120-npcs-in-a-tiny-ai-town">🏘️ Run over 120+ NPCs, in a tiny AI town with RWKV</a>. This repo extracts, extends, and generalizes their approach to be used in production. 
