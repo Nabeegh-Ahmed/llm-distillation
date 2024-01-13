@@ -68,3 +68,20 @@ def similarity_scroll(must_filters: List = None):
         with_vectors=False
     )[0]
     return scroll_result
+
+def update_indexed_status():
+    qdrant_client.set_payload(
+        collection_name="chats",
+        payload={
+            "indexed": True,
+        },
+        points=Filter(
+            must=[
+                FieldCondition(
+                    key="indexed",
+                    match=MatchValue(value=False),
+                ),
+            ],
+        ),
+    )
+    
